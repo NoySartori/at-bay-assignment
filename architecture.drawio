@@ -1,0 +1,148 @@
+<mxfile host="Electron" modified="2023-04-30T14:43:36.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="t5OsbuPi8d8aFGDJBb6s" version="21.2.1" type="device">
+  <diagram name="Page-1" id="wf16aJ7MPeuLDz5cjBzO">
+    <mxGraphModel dx="1854" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=82.50000000000001;entryPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-7" target="MGQBvR4ggCaKNuObLzt5-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="130" y="240" />
+              <mxPoint x="130" y="124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-25" value="2. Insert =&amp;gt; {taskId: auto-generated, status: &#39;accepted&#39;, payload: {url: &#39;https://virus.com&#39;}, finishTime: null}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-24">
+          <mxGeometry x="0.226" y="-2" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-7" target="MGQBvR4ggCaKNuObLzt5-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="250" />
+              <mxPoint x="410" y="250" />
+              <mxPoint x="410" y="60" />
+              <mxPoint x="580" y="60" />
+              <mxPoint x="580" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-27" value="3. Publish task, payload:&lt;br&gt;{taskId: &#39;1234&#39;}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-26">
+          <mxGeometry x="0.3753" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.879;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.913;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-7" target="MGQBvR4ggCaKNuObLzt5-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="350" />
+              <mxPoint x="90" y="350" />
+              <mxPoint x="90" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-30" value="4. 202 ACCEPTED&lt;br&gt;{taskId: &#39;1234&#39;}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-29">
+          <mxGeometry x="-0.0863" y="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-7" value="Ingest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-8" target="MGQBvR4ggCaKNuObLzt5-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="425" />
+              <mxPoint x="295" y="520" />
+              <mxPoint x="-360" y="520" />
+              <mxPoint x="-360" y="30" />
+              <mxPoint x="263" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-41" value="get by task id, return status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-40">
+          <mxGeometry x="-0.6291" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-8" value="Status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-9" target="MGQBvR4ggCaKNuObLzt5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-32" value="5. Receive request from queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-31">
+          <mxGeometry x="-0.5945" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-9" target="MGQBvR4ggCaKNuObLzt5-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="300" />
+              <mxPoint x="930" y="22" />
+              <mxPoint x="295" y="22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-34" value="6. Process gets task full payload (e.g. &quot;url&quot;), sets status on DB to &quot;Running&quot;&lt;br&gt;7. Process does work&lt;br&gt;8. Process Updates status to &quot;Complete&quot; or &quot;Error&quot;, based on execution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-33">
+          <mxGeometry x="-0.7043" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-9" value="Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-11" target="MGQBvR4ggCaKNuObLzt5-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="285" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="73" y="285" />
+              <mxPoint x="171" y="285" />
+              <mxPoint x="171" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-20" value="1. Scan request&lt;br&gt;{url: &#39;https://virus.com&#39;}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-14">
+          <mxGeometry x="-0.2015" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-11" target="MGQBvR4ggCaKNuObLzt5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="291" />
+              <mxPoint x="-90" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-43" value="GET /status/:taskId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MGQBvR4ggCaKNuObLzt5-42">
+          <mxGeometry x="0.3257" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-11" value="API Consumer" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-19" value="Message Queue&lt;br&gt;(In Production - RabbitMQ. For the assignment - Cache/In memory queue in python)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="105" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-23" value="DB&lt;br&gt;(Doesn&#39;t matter if RDBMS or NoSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="250" y="41.5" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MGQBvR4ggCaKNuObLzt5-38" value="Auto-delete task from DB after 20 minutes if finishTime != null. (Use auto-delete feature on DB,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or run a job on DB that auto-deletes based on &quot;finishTime&quot;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=37.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="MGQBvR4ggCaKNuObLzt5-23" target="MGQBvR4ggCaKNuObLzt5-23">
+          <mxGeometry x="0.0549" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="102" />
+              <mxPoint x="70" y="102" />
+              <mxPoint x="70" y="56" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
