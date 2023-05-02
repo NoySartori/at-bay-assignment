@@ -8,4 +8,4 @@ class QueueClient:
         self.q.put({'task_id': task_id})
 
     def get_scan_task(self):
-        self.q.get(block=True)
+        return self.q.get(block=True)

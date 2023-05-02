@@ -35,14 +35,18 @@ class DbQuery:
 
         return scan
 
-    def get_scan(self, scan_id: int) -> Scan:
+    def get_scan(self, scan_id: int) -> Scan | None:
         with self.__get_conn__() as con:
             cur = con.cursor()
 
-            row_scan_id, url, status, finish_time = cur.execute(
+            res = cur.execute(
                 f"SELECT scan_id, url, status, finish_time FROM scans WHERE scan_id = {scan_id}").fetchone()
 
-        return Scan(scan_id=row_scan_id, url=url, status=ScanStatus(status), finish_time=finish_time)
+            if res:
+                row_scan_id, url, status, finish_time = res
+                return Scan(scan_id=row_scan_id, url=url, status=ScanStatus(status), finish_time=finish_time)
+
+        return None
 
     def delete_scan(self, scan_id: int):
         with self.__get_conn__() as con:
@@ -53,7 +57,7 @@ class DbQuery:
     def update_scan_status(self, scan_id: int, status: ScanStatus):
         with self.__get_conn__() as con:
             cur = con.cursor()
-            cur.execute(f"UPDATE scans SET status={status.value}, WHERE scan_id={scan_id}")
+            cur.execute(f"UPDATE scans SET status={status.value} WHERE scan_id={scan_id}")
             con.commit()
 
     def set_scan_as_finished(self, scan_id: int, status: ScanStatus):
