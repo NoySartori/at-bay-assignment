@@ -4,8 +4,6 @@ from models.scan import Scan, ScanStatus
 
 import sqlite3
 
-import urllib.parse
-
 
 class DbQuery:
     def __init__(self):
