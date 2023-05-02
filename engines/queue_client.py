@@ -1,12 +1,11 @@
-from engines.db_client import scan_object_mock
-
-queued_task_mock = {'task_id': scan_object_mock.scan_id}
+import persistqueue
 
 class QueueClient:
-    def enqueue(self, task_id):
-        global queued_task_mock
-        return queued_task_mock
+    def __init__(self):
+        self.q = persistqueue.SQLiteQueue('scans_queue', auto_commit=True)
 
-    def dequeue(self):
-        global queued_task_mock
-        return queued_task_mock
+    def add_scan_task_to_queue(self, task_id):
+        self.q.put({'task_id': task_id})
+
+    def get_scan_task(self):
+        self.q.get(block=True)

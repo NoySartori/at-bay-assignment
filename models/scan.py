@@ -8,11 +8,12 @@ class ScanStatus(Enum):
     RUNNING = 2
     ERROR = 3
     COMPLETE = 4
+    NOT_FOUND = 5
 
 
 @dataclass
 class Scan:
     status: ScanStatus
     url: str
-    scan_id: str | None = None
-    finish_time: datetime | None = None
+    scan_id: int | None = None
+    finish_time: int | None = None
